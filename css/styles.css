@@ -193,7 +193,51 @@ button {
     border-radius: 200px;
     padding: 12px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+}
+.input-button-footer-container {
+    display: flex;
+    margin-top: 16px;
+    gap: 24px;
+}
+.footer-email-input {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: var(--navyblue);
+    padding: 8px 16px;
+}
+.subscribe-button-footer {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background-color: var(--iris);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    color: var(--white);
+}
+.subscribe-button-footer-svg {
+    height: 24px;
+    width: 24px;
+    fill: var(--white);
+}
+.footer-email-input::placeholder {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.48px;
 }
 .footer-list-contacts-item {
     display: inline-block;
@@ -281,6 +325,15 @@ button {
     letter-spacing: 0.32px;
     font-family: Roboto;
     color: var(--white);
+}
+.subscribe-footer {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    color: var(--white);
+
 }
 .container-footer {
     display: flex;
@@ -518,6 +571,7 @@ footer {
     line-height: 1.5em;
     letter-spacing: 0.32px;
     font-size: 16px;
+    width: 264px;
 }
 .footer {
     padding: 100px 0;
