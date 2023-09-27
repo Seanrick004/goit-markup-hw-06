@@ -757,7 +757,6 @@ footer {
     height: 8px;
     fill: currentColor;
     transition: background-color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1), color var(--transition-duration);
-
 }
 .modal.is-hidden { 
     visibility: hidden;
